@@ -1,0 +1,32 @@
+ats-engine/
+│
+├── composer.json
+├── app.php
+│
+├── src/
+│   ├── Core/
+│   │   ├── FitScorer.php
+│   │   ├── TableManager.php
+│   │   ├── DuplicateDetector.php
+│   │   ├── StatusEngine.php
+│   │   ├── NotesEngine.php
+│   │   ├── SourceDetector.php
+│   │   ├── AgencyDetector.php
+│   │   ├── DailySummary.php
+│   │
+│   ├── Handlers/
+│   │   ├── JobDescriptionHandler.php
+│   │   ├── SubmissionHandler.php
+│   │   ├── FailureHandler.php
+│   │   ├── InterviewHandler.php
+│   │
+│   └── Models/
+│       ├── JobEntry.php
+│       ├── FitResult.php
+│
+├── data/
+│   ├── main_table.csv
+│   └── under93_table.csv
+│
+└── logs/
+    └── daily_summary.log

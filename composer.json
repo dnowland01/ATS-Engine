@@ -1,0 +1,13 @@
+{
+    "name": "dennis/ats-engine",
+    "description": "Automated Job Application Tracking Engine",
+    "type": "project",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "ATS\\": "src/"
+        }
+    }
+}
